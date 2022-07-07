@@ -65,7 +65,6 @@ cardImage.addEventListener("click", (event) => {
     cardImage.style.width = "100%";
     cardImage.style.backgroundSize = "150%";
     cardImage.style.backgroundPosition = "center";
-    cardImage.style.backgroundPosition = "center";
     cardImage.style.cursor = "zoom-out";
   } else if (isOpen == true && isFullImage == true) {
     isFullImage = false;
@@ -75,6 +74,6 @@ cardImage.addEventListener("click", (event) => {
     cardImage.style.width = "50%";
     cardImage.style.backgroundSize = "cover";
     cardImage.style.backgroundPosition = "center";
-    cardImage.style.cursor = "zoom-out";
+    cardImage.style.cursor = "zoom-in";
   }
 });
